@@ -25,7 +25,13 @@ const eventData = {
   },
   "brick-work": {
     title: "Rapid BriQ",
-    description: "Think you can build strong foundations? 🧱💪 Join the Brick Bond Challenge, where teamwork meets precision! Gather your team of 2-4 and compete to build the perfect brick wall with speed, accuracy, and flawless bonding technique. It’s not just about stacking bricks — it’s about engineering skill, coordination, and craftsmanship! Are you ready to lay the foundation for victory? 🏆"
+    description: `Think you can build strong foundations? 🧱💪
+
+Join the Brick Bond Challenge, where teamwork meets precision! Gather your team of four and compete to build the perfect brick wall with speed, accuracy, and flawless bonding technique.
+
+It’s not just about stacking bricks — it’s about engineering skill, coordination, and craftsmanship!
+
+Are you ready to lay the foundation for victory? 🏆`
   },
   "face-painting": {
     title: "Cursed Creation",

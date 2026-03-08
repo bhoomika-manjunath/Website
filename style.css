@@ -1244,6 +1244,7 @@ footer {
   color: var(--text-light);
   font-weight: 400;
   letter-spacing: 0.02em;
+  white-space: pre-wrap;
 }
 
 /* Event cards pointer cursor */
