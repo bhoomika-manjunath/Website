@@ -444,7 +444,7 @@ h1.event-title {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.1em;
   padding-bottom: 0.2rem;
   filter: drop-shadow(0 0 8px rgba(251, 106, 0, 0.28));
   animation: title-shimmer 4s linear infinite;
@@ -496,7 +496,7 @@ h1.event-title {
 
 @media (max-width: 480px) {
   .nextera-text {
-    letter-spacing: 0.15em;
+    letter-spacing: -0.02em;
   }
 }
 
