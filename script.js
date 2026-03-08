@@ -4,7 +4,7 @@ const eventData = {
     description: "Step into an exciting arena where logic meets learning and speed meets strategy! The Civil Engineering Technical Quiz is a dynamic three-round competition designed to challenge your aptitude, technical expertise, and decision-making skills. From brain-twisting puzzles to rapid-fire technical challenges and high-risk final round decisions. Whether you’re a budding engineer or a problem-solving enthusiast, this is your platform to prove your knowledge, confidence, and teamwork. 🚀 Join the challenge. Think smart. Answer fast. Win big."
   },
   "concrete": {
-    title: "Cast & Conquer",
+    title: "ConQueror",
     description: "Design. Mix. Cast. Test. Triumph. Concrete is not just a construction material — it is the foundation of skylines, bridges, highways, and the infrastructure that shapes our world. Are you ready to prove your mastery over it? This is crafted to challenge your understanding, precision, innovation, and teamwork in the field of Concrete Technology. Enter the lab. Make decisions that matter. Engineer a mix that performs under pressure. From designing proportions to achieving performance, this event pushes you to transform knowledge into measurable strength. Because in civil engineering, true excellence is not just calculated — it is built."
   },
   "cad": {
