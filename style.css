@@ -1696,7 +1696,7 @@ footer {
   -webkit-text-fill-color: transparent;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  white-space: nowrap;
+  white-space: nowrap; /* overridden on mobile */
   margin: 0;
 }
 
@@ -1730,22 +1730,41 @@ footer {
 
 .leadership-divider { display: none; }
 
-/* Mobile — stay in one row but allow wrap on tiny screens */
-@media (max-width: 540px) {
+/* Tablet — slight squeeze */
+@media (max-width: 768px) {
   .leadership-section {
-    padding: 1.8rem 1rem 1rem;
+    padding: 2rem 1.2rem 1.2rem;
   }
 
   .leadership-grid {
+    flex-direction: column;
     gap: 1rem;
+    max-width: 420px;
   }
 
   .leadership-card {
-    padding: 1.2rem 1rem;
+    padding: 1.4rem 1.8rem;
+    width: 100%;
   }
 
   .leadership-card h3 {
+    font-size: 1rem;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .leadership-role-badge {
+    font-size: 0.6rem;
+  }
+
+  .leadership-tagline {
     font-size: 0.68rem;
+    letter-spacing: 0.15em;
+  }
+
+  .leadership-tagline::before,
+  .leadership-tagline::after {
+    max-width: 60px;
   }
 }
 
