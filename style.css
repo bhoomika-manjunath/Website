@@ -844,6 +844,71 @@ h1.event-title {
 }
 
 /* About Section Styles */
+/* =============================================
+   SPONSORS SECTION
+   ============================================= */
+.sponsors-section {
+  padding: 3rem 0;
+  background: rgba(255, 140, 26, 0.03);
+  border-top: 1px solid rgba(255, 140, 26, 0.08);
+  border-bottom: 1px solid rgba(255, 140, 26, 0.08);
+  margin-bottom: 2rem;
+}
+
+.sponsors-title {
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 2rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.sponsors-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.sponsor-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  opacity: 0.9;
+}
+
+.sponsor-item:hover {
+  opacity: 1;
+  transform: translateY(-5px) scale(1.1);
+}
+
+.sponsor-icon {
+  height: 60px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .sponsors-container {
+    gap: 2.5rem;
+  }
+  
+  .sponsor-icon {
+    height: 45px;
+    max-width: 150px;
+  }
+  
+  .sponsors-section {
+    padding: 2.5rem 0;
+  }
+}
+
 .about-section {
   padding: 6rem 2rem 4rem;
   position: relative;
